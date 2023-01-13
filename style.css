@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main .hearder{
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    font-weight: 550;
+}
+#main .introduce{
+    min-height: 200px;
+    max-width: 643px;
+    text-align: center;
+    margin: auto;
+    padding: 60px 0;
+}
+#main .introduce .tittle {
+    font-size: 30px;
+    font-weight: 200;
+}
+#main .introduce p {
+    margin: 12px;
+    text-align: center;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#main .introduce button {
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+#main .introduce .btn-1{
+    background-color: rgb(80, 80, 220);
+    color: #fff;
+}
+#main .introduce .btn-2{
+    background-color: rgba(41, 39, 39, 0.8);
+    color: #fff;
+}
+#main .contents{
+    background-color: aliceblue;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#main .contents .content {
+    margin: auto;
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+#main .contents .content-tittle {
+    background-color: rgba(41, 39, 39, 0.8);
+    text-align: center;
+    padding: 60px 0;
+    color: #fff;
+    font-size:30px ;
+    font-weight: 600;
+}
+#main .contents .content-container{
+    background-color: #fff;
+    padding: 8px;
+    position: relative;
+}
+#main .content-container p{
+    margin: 16px 0;
+}
+#main .content-container button {
+    padding: 4px;
+}
+#main .content-container .time{
+    display: inline;
+    right: 8px;
+    bottom: -12px;
+    position: absolute;
+    color: #ccc;
+}
+
+
+
